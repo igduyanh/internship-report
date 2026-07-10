@@ -8,24 +8,20 @@ pre: ' <b> 1.4. </b> '
 
 ### Week 4 Objectives:
 
-- Review knowledge from Lab 03 about AWS VPC and Networking.
-- Learn and practice Amazon EC2 services in Lab 04.
-- Understand how EC2 Instances, AMIs, Key Pairs, and Snapshot Backups work on AWS.
+- Learn the architecture of Load Balancing.
+- Complete the Lab 000006 exercises.
 
-### Tasks to be carried out this week:
+### Tasks Completed During the Week:
 
-| Day       | Task                                                                                                                                                                     | Start Date | End Date   | Reference Material |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ---------- | ------------------ |
-| Monday    | Review VPC, Subnet, Route Table, and Security Group concepts from Lab 03.                                                                                                | 11/05/2026 | 11/05/2026 |                    |
-| Tuesday   | Start Lab 04 and learn the overview of Amazon EC2 services.                                                                                                              | 12/05/2026 | 12/05/2026 |                    |
-| Wednesday | Learn about EC2 Instance Types and choose suitable configurations for workloads.                                                                                         | 13/05/2026 | 13/05/2026 |                    |
-| Thursday  | Practice launching EC2 Instances and configuring Security Groups and Key Pairs.                                                                                          | 14/05/2026 | 14/05/2026 |                    |
-| Friday    | Learn about AMIs, create Custom AMIs, practice backup using Snapshots, test EC2 connectivity, practice SSH access, summarize Lab 04 results, and clean up lab resources. | 15/05/2026 | 15/05/2026 |                    |
+| Day | Task Description | Start Date | End Date | Reference |
+|-----|------------------|------------|----------|-----------|
+| Monday | Study the architecture of Load Balancing and Auto Scaling using Lab 000006 and AWS documentation. | 11/05/2026 | 11/05/2026 | https://aws.amazon.com/what-is/load-balancing/ |
+| Tuesday | Create a Launch Template and learn how it is used to automate EC2 instance deployment. | 12/05/2026 | 12/05/2026 | https://000006.awsstudygroup.com/vi/3-create-launch-template/ |
+| Wednesday | Create an Application Load Balancer, configure target groups, listeners, and health checks. | 13/05/2026 | 13/05/2026 | https://aws.amazon.com/elasticloadbalancing/application-load-balancer/ |
+| Thursday | Review the concepts of Load Balancing and Auto Scaling. | 14/05/2026 | 14/05/2026 | |
+| Friday | Summarize the week's work and clean up the lab resources. | 15/05/2026 | 15/05/2026 | |
 
-### Results Achieved:
+### Achievements:
 
-- Reviewed and strengthened AWS Networking knowledge from Lab 03.
-- Understood how Amazon EC2 and different Instance Types work.
-- Practiced deploying EC2 Instances and configuring Key Pairs and Security Groups.
-- Learned about AMIs and Snapshot Backup mechanisms in AWS.
-- Gained additional experience in troubleshooting and deploying AWS cloud infrastructure.
+- Reviewed and reinforced the knowledge gained from Lab 000005.
+- Developed a solid understanding of the architecture and operation of Load Balancing and Auto Scaling.

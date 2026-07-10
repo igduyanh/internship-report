@@ -1,45 +1,36 @@
 ---
-
-title: "Week 8 Worklog"
+title: 'Week 8 Worklog'
 date: 2026-06-08
 weight: 8
 chapter: false
-pre: " <b> 1.8. </b> "
-----------------------
+pre: ' <b> 1.8. </b> '
+---
 
 ### Week 8 Objectives:
 
-* Complete the project workflow design and development process.
-* Define roles and responsibilities for each team member.
-* Research technologies and knowledge related to the project.
-* Prepare the development roadmap and task allocation plan.
+- Finalize the project's workflow and development process.
+- Assign roles and responsibilities to each team member.
+- Research the technologies, tools, and knowledge required for project implementation.
+- Develop the project roadmap and allocate tasks for the upcoming development phases.
 
-### Tasks to be carried out this week:
+### Tasks Completed During the Week:
 
-| Day | Task                                                                                                                                        | Start Date | Completion Date | Reference Material     |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ---------------------- |
-| 2   | - Review project requirements and objectives <br> - Analyze project scope and expected deliverables                                         | 08/06/2026 | 08/06/2026      | Project Documentation  |
-| 3   | - Design the project workflow <br> - Define development stages and collaboration process                                                    | 09/06/2026 | 09/06/2026      | Team Discussion        |
-| 4   | - Assign roles and responsibilities to team members <br> - Define communication and reporting procedures                                    | 10/06/2026 | 10/06/2026      | Team Planning          |
-| 5   | - Research technologies, frameworks, and tools related to the project <br> - Study best practices and implementation approaches             | 11/06/2026 | 12/06/2026      | Official Documentation |
-| 6   | - Prepare development roadmap <br> - Create task breakdown and milestone planning <br> - Review and finalize project preparation activities | 13/06/2026 | 14/06/2026      | Project Plan           |
+| Day | Task Description | Start Date | End Date | Reference |
+|-----|------------------|------------|----------|-----------|
+| Monday | - Review the project requirements and objectives.<br>- Analyze the project scope and expected deliverables. | 08/06/2026 | 08/06/2026 | Project documentation |
+| Tuesday | - Design the project's workflow.<br>- Define the development phases and collaboration process among team members. | 09/06/2026 | 09/06/2026 | Team discussion |
+| Wednesday | - Assign roles and responsibilities to each team member.<br>- Establish communication and progress reporting procedures. | 10/06/2026 | 10/06/2026 | Team planning |
+| Thursday | - Research technologies, frameworks, and tools suitable for the project.<br>- Explore implementation approaches that meet the system requirements. | 11/06/2026 | 12/06/2026 | Official documentation |
+| Friday | - Develop the project roadmap.<br>- Create the task allocation plan and define project milestones.<br>- Summarize and finalize all preparations before entering the development phase. | 13/06/2026 | 14/06/2026 | Project plan |
 
-### Week 8 Achievements:
+### Achievements:
 
-* Completed the project workflow design and development process.
-
-* Clearly identified project phases, deliverables, and collaboration procedures.
-
-* Successfully assigned roles and responsibilities to team members.
-
-* Established communication and reporting processes within the team.
-
-* Researched and evaluated technologies, frameworks, and tools suitable for the project.
-
-* Improved understanding of project-related technical concepts and implementation approaches.
-
-* Developed a project roadmap with defined milestones and objectives.
-
-* Completed task allocation planning to support the implementation phase.
-
-* Prepared the team for the next stage of project development and execution.
+- Finalized the project's workflow and development process.
+- Clearly defined the development phases, expected deliverables, and collaboration model among team members.
+- Assigned roles and responsibilities to all team members.
+- Established communication and progress reporting procedures to improve team coordination.
+- Researched, evaluated, and selected appropriate technologies, frameworks, and tools for the project.
+- Strengthened the technical knowledge required for system design and development.
+- Developed a project roadmap with clear milestones and objectives.
+- Completed the task allocation plan in preparation for the implementation phase.
+- Ensured that all necessary preparations were completed before moving on to the next stage of project development.

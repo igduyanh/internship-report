@@ -8,37 +8,28 @@ pre: ' <b> 1.9. </b> '
 
 ### Week 9 Objectives:
 
-- Build the basic AWS security monitoring environment.
-- Configure logging, monitoring, and security services for continuous visibility and threat detection.
+- Build a basic security monitoring environment on AWS.
+- Configure logging, monitoring, and threat detection services to track system activities.
 
-### Tasks to be carried out this week:
+### Tasks Completed During the Week:
 
-| Day | Task                                                                                                                                                                             | Start Date | Completion Date | Reference Material                       |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ---------------------------------------- |
-| 2   | - Create AWS account and enable MFA for the root user <br> - Create an IAM Administrator user for daily operations                                                               | 15/06/2026 | 15/06/2026      | https://docs.aws.amazon.com/iam/         |
-| 3   | - Enable AWS CloudTrail to record API activities <br> - Configure VPC Flow Logs and send logs to CloudWatch Logs                                                                 | 16/06/2026 | 16/06/2026      | https://docs.aws.amazon.com/cloudtrail/  |
-| 4   | - Enable AWS Config to record configuration changes <br> - Configure AWS Budgets with a monthly cost alert                                                                       | 17/06/2026 | 17/06/2026      | https://docs.aws.amazon.com/config/      |
-| 5   | - Enable Amazon GuardDuty in ap-southeast-1 <br> - Enable AWS Security Hub with the NIST 800-53 standard <br> - Integrate GuardDuty findings into Security Hub                   | 18/06/2026 | 18/06/2026      | https://docs.aws.amazon.com/securityhub/ |
-| 6   | - Enable IAM Access Analyzer <br> - Create CloudWatch alarms for failed login and root account usage <br> - Generate GuardDuty sample findings and verify alerts in Security Hub | 19/06/2026 | 19/06/2026      | https://docs.aws.amazon.com/guardduty/   |
+| Day | Task Description | Start Date | End Date | Reference |
+|-----|------------------|------------|----------|-----------|
+| Monday | - Create an AWS account and enable Multi-Factor Authentication (MFA) for the Root User.<br>- Create an IAM User with the `AdministratorAccess` policy for day-to-day administrative tasks. | 15/06/2026 | 15/06/2026 | https://docs.aws.amazon.com/iam/ |
+| Tuesday | - Enable AWS CloudTrail to record all API calls within the AWS account.<br>- Configure VPC Flow Logs and deliver log data to Amazon CloudWatch Logs. | 16/06/2026 | 16/06/2026 | https://docs.aws.amazon.com/cloudtrail/ |
+| Wednesday | - Enable AWS Config to monitor configuration changes to AWS resources.<br>- Configure AWS Budgets and create monthly cost alerts. | 17/06/2026 | 17/06/2026 | https://docs.aws.amazon.com/config/ |
+| Thursday | - Enable Amazon GuardDuty in the `ap-southeast-1` Region.<br>- Enable AWS Security Hub with the NIST 800-53 security standard.<br>- Integrate GuardDuty findings into AWS Security Hub. | 18/06/2026 | 18/06/2026 | https://docs.aws.amazon.com/securityhub/ |
+| Friday | - Enable IAM Access Analyzer.<br>- Create CloudWatch Alarms to monitor failed sign-in attempts and Root User activity.<br>- Generate GuardDuty sample findings and verify that the alerts appear correctly in AWS Security Hub. | 19/06/2026 | 19/06/2026 | https://docs.aws.amazon.com/guardduty/ |
 
-### Week 9 Achievements:
+### Achievements:
 
-- Successfully configured IAM security best practices by enabling MFA for the root account and using an IAM Administrator user for daily administration.
-
-- Enabled AWS CloudTrail to record all API calls across the AWS account.
-
-- Configured VPC Flow Logs to collect network traffic logs and send them to Amazon CloudWatch Logs.
-
-- Enabled AWS Config to continuously monitor and record resource configuration changes.
-
-- Created an AWS Budget with monthly cost alerts to help control AWS spending.
-
+- Implemented fundamental IAM security best practices by enabling MFA for the Root User and using an IAM User with administrative privileges for daily operations.
+- Enabled AWS CloudTrail to record all API calls made within the AWS account.
+- Configured VPC Flow Logs to collect network traffic logs and deliver them to Amazon CloudWatch Logs.
+- Enabled AWS Config to monitor and record configuration changes to AWS resources.
+- Configured AWS Budgets with monthly cost alerts to help monitor and control AWS spending.
 - Enabled Amazon GuardDuty to detect suspicious activities and potential security threats.
-
-- Enabled AWS Security Hub and integrated GuardDuty findings into a centralized security dashboard.
-
-- Configured IAM Access Analyzer to detect resources shared with external accounts.
-
-- Created CloudWatch alarms for important security events such as failed login attempts and root account usage.
-
-- Successfully generated GuardDuty sample findings and verified that security findings were correctly displayed in AWS Security Hub.
+- Configured AWS Security Hub and integrated GuardDuty findings into a centralized security management dashboard.
+- Enabled IAM Access Analyzer to identify AWS resources that are shared externally.
+- Created CloudWatch Alarms to monitor critical events, including failed sign-in attempts and Root User activity.
+- Generated GuardDuty sample findings and verified that the alerts were successfully displayed in AWS Security Hub.

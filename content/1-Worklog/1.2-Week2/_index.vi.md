@@ -1,15 +1,14 @@
 ---
 title: 'Worklog Tuần 2'
 date: 2026-04-27
-weight: 1
+weight: 2
 chapter: false
 pre: ' <b> 1.2. </b> '
 ---
 
 ### Mục tiêu tuần 2:
 
-- Nắm các dịch vụ AWS cơ bản: EC2, S3, IAM, CloudWatch, GuardDuty.
-- Hiểu cách các dịch vụ phối hợp trong hệ thống Cloud.
+- Nắm các dịch vụ AWS cơ bản: EC2, S3, IAM, VPC.
 
 ### Các công việc cần triển khai trong tuần này:
 

@@ -8,23 +8,20 @@ pre: ' <b> 1.5. </b> '
 
 ### Week 5 Objectives:
 
-- Complete Lab 04 on AWS infrastructure deployment.
-- Learn and practice Lab 05 with EC2 Instances and RDS Database.
-- Deploy an application on EC2 and connect it to an RDS database.
+- Complete Lab 000007.
+- Complete Lab 000008.
 
-### Tasks to be carried out this week:
+### Tasks Completed During the Week:
 
-| Day       | Task                                                                                                                                                                         | Start Date | End Date   | Reference Material |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- | ------------------ |
-| Monday    | Complete the remaining tasks of Lab 04 and verify AWS system configurations.                                                                                                 | 18/05/2026 | 18/05/2026 |                    |
-| Tuesday   | Start Lab 05 and learn how to create Amazon EC2 Instances.                                                                                                                   | 19/05/2026 | 19/05/2026 |                    |
-| Wednesday | Practice configuring Security Groups, Key Pairs, and SSH connections to EC2 Instances.                                                                                       | 20/05/2026 | 20/05/2026 |                    |
-| Thursday  | Learn about Amazon RDS and practice creating databases on AWS.                                                                                                               | 21/05/2026 | 21/05/2026 |                    |
-| Friday    | Configure the connection between EC2 Instances and the RDS Database, deploy the application on EC2, practice backup and recovery procedures, and clean up AWS lab resources. | 22/05/2026 | 22/05/2026 |                    |
+| Day | Task Description | Start Date | End Date | Reference |
+|-----|------------------|------------|----------|-----------|
+| Monday | Study Lab 000007, focusing on AWS Cost Management, Billing, and email alert configuration. | 18/05/2026 | 18/05/2026 | https://000007.awsstudygroup.com/ |
+| Tuesday | Complete the hands-on exercises in Lab 000007. | 19/05/2026 | 19/05/2026 | https://000007.awsstudygroup.com/ |
+| Wednesday | Review the concepts learned and clean up the resources configured during Lab 000007. | 20/05/2026 | 20/05/2026 | https://000007.awsstudygroup.com/ |
+| Thursday | Learn about Amazon CloudWatch, including Metrics, Logs, and Alarms. | 21/05/2026 | 21/05/2026 | https://000008.awsstudygroup.com/ |
+| Friday | Practice the lab exercises, review the material, and clean up the AWS resources created during the lab. | 22/05/2026 | 22/05/2026 | https://000008.awsstudygroup.com/ |
 
-### Results Achieved:
+### Achievements:
 
-- Completed Lab 04 and strengthened knowledge of AWS infrastructure.
-- Practiced creating and managing Amazon EC2 Instances.
-- Understood how Amazon RDS Database works and how to deploy it.
-- Deployed an application on EC2 and tested connectivity with the RDS database.
+- Strengthened knowledge of AWS IAM, Cost Management, Billing, and billing alert configuration.
+- Gained a solid understanding of Amazon CloudWatch and its monitoring features, including Metrics, Logs, and Alarms.

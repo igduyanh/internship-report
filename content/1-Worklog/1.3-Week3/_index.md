@@ -8,20 +8,20 @@ pre: ' <b> 1.3. </b> '
 
 ### Week 3 Objectives:
 
-- Learn and complete Lab 000005.
-- Explore Amazon RDS.
+- Learn and practice lab 000005.
+- Learn about Amazon RDS.
 
-### Tasks Completed During the Week:
+### Weekly Tasks:
 
-| Day | Task Description | Start Date | End Date | Reference |
-|-----|------------------|------------|----------|-----------|
+| Day | Work Content | Start Date | End Date | Reference |
+| ----- | -------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | ------------------ |
 | Monday | Lab 000005: Learn about Amazon RDS | 04/05/2026 | 04/05/2026 | https://000005.awsstudygroup.com/ |
-| Tuesday | Study the lab materials and work with EC2, subnets, and security groups | 05/05/2026 | 05/05/2026 | https://000005.awsstudygroup.com/ |
-| Wednesday | Complete the lab exercises involving EC2, subnets, and security groups | 06/05/2026 | 06/05/2026 | https://000005.awsstudygroup.com/ |
-| Thursday | Connect the application running on EC2 to Amazon RDS, and verify network traffic and security group rules | 07/05/2026 | 07/05/2026 | https://000005.awsstudygroup.com/ |
-| Friday | Practice backup and restore features, then clean up the AWS resources created during the lab | 08/05/2026 | 08/05/2026 | https://000005.awsstudygroup.com/ |
+| Tuesday | Learn lab contents, interact with EC2, subnets, security groups | 05/05/2026 | 05/05/2026 | https://000005.awsstudygroup.com/ |
+| Wednesday | Practice lab, interact with EC2, subnets, security groups | 06/05/2026 | 06/05/2026 | https://000005.awsstudygroup.com/ |
+| Thursday | Connect application on EC2 to RDS, verify traffic flows and network rules. | 07/05/2026 | 07/05/2026 | https://000005.awsstudygroup.com/ |
+| Friday | Practice backup and restore features, then clean up resources created during the lab | 08/05/2026 | 08/05/2026 | https://000005.awsstudygroup.com/ |
 
-### Achievements:
+### Results:
 
-- Gained an understanding of AWS core services, including IAM, VPC, EC2, S3, and Billing.
-- Successfully completed Lab 000005 and acquired practical knowledge of Amazon RDS.
+- Mastered core AWS services (IAM, VPC, EC2, S3).
+- Understood and practiced lab 000005 contents regarding Amazon RDS.

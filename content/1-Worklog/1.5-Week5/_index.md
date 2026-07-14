@@ -8,20 +8,20 @@ pre: ' <b> 1.5. </b> '
 
 ### Week 5 Objectives:
 
-- Complete Lab 000007.
-- Complete Lab 000008.
+- Complete lab 000007.
+- Complete lab 000008.
 
-### Tasks Completed During the Week:
+### Weekly Tasks:
 
-| Day | Task Description | Start Date | End Date | Reference |
-|-----|------------------|------------|----------|-----------|
-| Monday | Study Lab 000007, focusing on AWS Cost Management, Billing, and email alert configuration. | 18/05/2026 | 18/05/2026 | https://000007.awsstudygroup.com/ |
-| Tuesday | Complete the hands-on exercises in Lab 000007. | 19/05/2026 | 19/05/2026 | https://000007.awsstudygroup.com/ |
-| Wednesday | Review the concepts learned and clean up the resources configured during Lab 000007. | 20/05/2026 | 20/05/2026 | https://000007.awsstudygroup.com/ |
-| Thursday | Learn about Amazon CloudWatch, including Metrics, Logs, and Alarms. | 21/05/2026 | 21/05/2026 | https://000008.awsstudygroup.com/ |
-| Friday | Practice the lab exercises, review the material, and clean up the AWS resources created during the lab. | 22/05/2026 | 22/05/2026 | https://000008.awsstudygroup.com/ |
+| Day | Work Content | Start Date | End Date | Reference |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | -------------- |
+| Monday | Learn lab 000007 contents, understand cost management, billing, and set up email alerts. | 18/05/2026 | 18/05/2026 | https://000007.awsstudygroup.com/ |
+| Tuesday | Practice lab 000007 contents. | 19/05/2026 | 19/05/2026 | https://000007.awsstudygroup.com/ |
+| Wednesday | Review and clean up configuration in lab 000007. | 20/05/2026 | 20/05/2026 | https://000007.awsstudygroup.com/ |
+| Thursday | Learn about Amazon CloudWatch, Metrics, Logs, Alarms. | 21/05/2026 | 21/05/2026 | https://000008.awsstudygroup.com/ |
+| Friday | Practice, review, and clean up lab resources. | 22/05/2026 | 22/05/2026 | https://000008.awsstudygroup.com/ |
 
-### Achievements:
+### Results:
 
-- Strengthened knowledge of AWS IAM, Cost Management, Billing, and billing alert configuration.
-- Gained a solid understanding of Amazon CloudWatch and its monitoring features, including Metrics, Logs, and Alarms.
+- Mastered additional knowledge on IAM, cost management, billing, and alerts.
+- Gained knowledge of Amazon CloudWatch and its monitoring features (Metrics, Logs, Alarms).

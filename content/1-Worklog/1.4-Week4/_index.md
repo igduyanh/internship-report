@@ -8,20 +8,20 @@ pre: ' <b> 1.4. </b> '
 
 ### Week 4 Objectives:
 
-- Learn the architecture of Load Balancing.
-- Complete the Lab 000006 exercises.
+- Learn load balancing architecture.
+- Practice lab 000006.
 
-### Tasks Completed During the Week:
+### Weekly Tasks:
 
-| Day | Task Description | Start Date | End Date | Reference |
-|-----|------------------|------------|----------|-----------|
-| Monday | Study the architecture of Load Balancing and Auto Scaling using Lab 000006 and AWS documentation. | 11/05/2026 | 11/05/2026 | https://aws.amazon.com/what-is/load-balancing/ |
-| Tuesday | Create a Launch Template and learn how it is used to automate EC2 instance deployment. | 12/05/2026 | 12/05/2026 | https://000006.awsstudygroup.com/vi/3-create-launch-template/ |
-| Wednesday | Create an Application Load Balancer, configure target groups, listeners, and health checks. | 13/05/2026 | 13/05/2026 | https://aws.amazon.com/elasticloadbalancing/application-load-balancer/ |
-| Thursday | Review the concepts of Load Balancing and Auto Scaling. | 14/05/2026 | 14/05/2026 | |
-| Friday | Summarize the week's work and clean up the lab resources. | 15/05/2026 | 15/05/2026 | |
+| Day | Work Content | Start Date | End Date | Reference |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | -------------- |
+| Monday | Learn load balancing and auto scaling architecture with lab 000006 resources and AWS. | 11/05/2026 | 11/05/2026 | https://aws.amazon.com/what-is/load-balancing/ |
+| Tuesday | Create Launch Template, understand how it is used for automatic EC2 deployment. | 12/05/2026 | 12/05/2026 | https://000006.awsstudygroup.com/vi/3-create-launch-template/ |
+| Wednesday | Create Application Load Balancer, target group, listener, health check. | 13/05/2026 | 13/05/2026 | https://aws.amazon.com/vi/elasticloadbalancing/application-load-balancer/ |
+| Thursday | Review learned knowledge of load balancing and auto scaling. | 14/05/2026 | 14/05/2026 | |
+| Friday | Summarize and clean up lab resources. | 15/05/2026 | 15/05/2026 | |
 
-### Achievements:
+### Results:
 
-- Reviewed and reinforced the knowledge gained from Lab 000005.
-- Developed a solid understanding of the architecture and operation of Load Balancing and Auto Scaling.
+- Reviewed and consolidated knowledge from lab 000006.
+- Understood the mechanism and architecture of load balancing and auto scaling.

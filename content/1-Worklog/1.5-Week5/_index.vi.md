@@ -24,4 +24,4 @@ pre: ' <b> 1.5. </b> '
 ### Kết quả đạt được:
 
 - Nắm được kiến thức bổ sung IAM, cost management, billing, cảnh báo
-- Nắm được kiến thức Amazone CloudWatch và các tính năng theo dõi Metrics, Logs, Alarms.
+- Nắm được kiến thức Amazon CloudWatch và các tính năng theo dõi Metrics, Logs, Alarms.

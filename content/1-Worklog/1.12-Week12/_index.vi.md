@@ -18,7 +18,7 @@ pre: ' <b> 1.12. </b> '
 | --- | ------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ------------------------------------------- |
 | 2 | - Xây dựng Amazon CloudWatch Dashboard phục vụ giám sát tập trung.<br>- Thiết kế Dashboard hiển thị các chỉ số về bảo mật và vận hành của hệ thống. | 06/07/2026 | 06/07/2026 | https://docs.aws.amazon.com/cloudwatch/ |
 | 3 | - Cấu hình Amazon CloudWatch Alarms.<br>- Kiểm thử chức năng gửi cảnh báo qua Amazon SNS bằng Email Notification. | 07/07/2026 | 07/07/2026 | https://docs.aws.amazon.com/cloudwatch/ |
-| 4 | - Thực hiện các kịch bản mô phỏng tấn công để đánh giá hệ thống.<br>- Kiểm tra Security Findings trên Amazon GuardDuty và AWS Security Hub. | 08/07/2026 | 08/07/2026 | https://docs.aws.amazon.com/guardduty/ |
+| 4 | - Tìm hiểu và cấu hình CloudFront & WAF.<br>- Thực hiện các kịch bản mô phỏng tấn công để đánh giá hệ thống.<br>- Kiểm tra Security Findings trên Amazon GuardDuty và AWS Security Hub. | 08/07/2026 | 08/07/2026 | https://docs.aws.amazon.com/guardduty/ |
 | 5 | - Đánh giá hiệu quả của quy trình Detect → Respond → Recover.<br>- Tối ưu IAM Policies theo nguyên tắc Least Privilege nhằm tăng cường bảo mật. | 09/07/2026 | 09/07/2026 | https://docs.aws.amazon.com/iam/ |
 | 6 | - Hoàn thiện tài liệu triển khai và hướng dẫn sử dụng hệ thống.<br>- Đánh giá chi phí vận hành và đề xuất các phương án mở rộng trong tương lai. | 10/07/2026 | 10/07/2026 | https://docs.aws.amazon.com/wellarchitected/ |
 

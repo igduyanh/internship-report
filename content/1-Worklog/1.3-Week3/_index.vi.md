@@ -23,5 +23,5 @@ pre: ' <b> 1.3. </b> '
 
 ### Kết quả đạt được:
 
-- Nắm được các dịch vụ cốt lõi của AWS (IAM, VPC, EC2, S3, Billing).
+- Nắm được các dịch vụ cốt lõi của AWS (IAM, VPC, EC2, S3).
 - Hiểu và thực hành nội dung lab 000005 với kiến thức RDS.

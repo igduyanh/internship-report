@@ -1,12 +1,9 @@
-```markdown id="wk10vn"
 ---
 title: 'Worklog Tuần 10'
 date: 2026-06-22
 weight: 10
 chapter: false
 pre: ' <b> 1.10. </b> '
----
-
 ---
 
 ### Mục tiêu tuần 10:
@@ -42,4 +39,3 @@ pre: ' <b> 1.10. </b> '
 - Áp dụng các thực hành bảo mật theo khuyến nghị của AWS, bao gồm:
   - Sử dụng IAM Roles thay cho việc lưu trữ Access Keys trong mã nguồn.
   - Ghi nhật ký thực thi vào Amazon CloudWatch Logs.
-```

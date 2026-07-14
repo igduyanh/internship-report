@@ -1,12 +1,9 @@
-```markdown
 ---
 title: 'Worklog Tuần 8'
 date: 2026-06-08
 weight: 8
 chapter: false
 pre: ' <b> 1.8. </b> '
----
-
 ---
 
 ### Mục tiêu tuần 8:
@@ -24,7 +21,7 @@ pre: ' <b> 1.8. </b> '
 | 3 | - Thiết kế quy trình làm việc của dự án.<br>- Xác định các giai đoạn phát triển và cơ chế phối hợp giữa các thành viên. | 09/06/2026 | 09/06/2026 | Thảo luận nhóm |
 | 4 | - Phân công vai trò và trách nhiệm cho từng thành viên.<br>- Xây dựng quy trình trao đổi thông tin và báo cáo tiến độ. | 10/06/2026 | 10/06/2026 | Kế hoạch nhóm |
 | 5 | - Nghiên cứu các công nghệ, framework và công cụ phù hợp với dự án.<br>- Tìm hiểu các phương pháp triển khai đáp ứng yêu cầu hệ thống. | 11/06/2026 | 12/06/2026 | Tài liệu chính thức |
-| 6 | - Xây dựng lộ trình phát triển của dự án.<br>- Lập kế hoạch phân chia công việc và các mốc triển khai.<br>- Tổng kết và hoàn thiện công tác chuẩn bị trước khi bước vào giai đoạn phát triển. | 13/06/2026 | 14/06/2026 | Kế hoạch dự án |
+| 6 | - Xây dựng lộ trình phát triển của dự án.<br>- Lập kế hoạch phân chia công việc và các mốc triển khai.<br>- Tổng kết và hoàn thiện công tác chuẩn bị trước khi bước vào giai đoạn phát triển. | 12/06/2026 | 12/06/2026 | Kế hoạch dự án |
 
 ### Kết quả đạt được tuần 8:
 
@@ -37,4 +34,3 @@ pre: ' <b> 1.8. </b> '
 - Xây dựng lộ trình phát triển với các mốc thời gian và mục tiêu cụ thể.
 - Hoàn thiện kế hoạch phân bổ nhiệm vụ để chuẩn bị cho giai đoạn triển khai.
 - Đảm bảo đầy đủ các điều kiện cần thiết để sẵn sàng bước sang giai đoạn phát triển tiếp theo.
-```

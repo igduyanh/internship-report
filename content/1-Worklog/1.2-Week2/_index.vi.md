@@ -16,8 +16,8 @@ pre: ' <b> 1.2. </b> '
 | --- | ------------------------------------------------------------------------- | ------------ | --------------- | ---------------------------- |
 | 2   | - Học lab 000001: Tạo tài khoản AWS, thực hiện các task để nhận tối đa $200 credit                         | 27/04/2026   | 27/04/2026      |https://000001.awsstudygroup.com/|
 | 4   | - Lab 000002: Tìm hiểu IAM, user, role, policy                                        | 29/04/2026   | 29/04/2026      |https://000002.awsstudygroup.com |
-| 5   | - Lab 000003: Tìm hiểu VPC, subnet, route table, internet gateway, NAT gateway  | 30/04/2026   | 01/05/2026      | https://000003.awsstudygroup.com|
-| 6   | - Lab 000004: Tìm hiểu EC2: instance, AMI, quản lý cơ bản                  | 02/05/2026   | 03/05/2026      | https://000004.awsstudygroup.com |
+| 5   | - Lab 000003: Tìm hiểu VPC, subnet, route table, internet gateway, NAT gateway  | 30/04/2026   | 30/04/2026      | https://000003.awsstudygroup.com|
+| 6   | - Lab 000004: Tìm hiểu EC2: instance, AMI, quản lý cơ bản                  | 01/05/2026   | 01/05/2026      | https://000004.awsstudygroup.com |
 
 ### Kết quả đạt được tuần 2:
 

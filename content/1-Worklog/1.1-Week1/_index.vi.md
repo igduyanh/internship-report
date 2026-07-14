@@ -27,8 +27,8 @@ Các mục tiêu chính gồm:
 | 2 | - Làm quen với các thành viên FCJ.<br>- Tham gia buổi giới thiệu chương trình. | 20/04/2026 | 20/04/2026 | https://cloudjourney.awsstudygroup.com/ |
 | 3 | - Tìm hiểu nội quy và quy trình học tập.<br>- Đọc hướng dẫn về cách thực hiện báo cáo hằng tuần. | 21/04/2026 | 21/04/2026 | https://cloudjourney.awsstudygroup.com/ |
 | 4 | - Clone template website từ GitHub.<br>- Tìm hiểu cấu trúc dự án được xây dựng bằng Hugo. | 22/04/2026 | 22/04/2026 | https://gohugo.io/ |
-| 5 | - Chỉnh sửa nội dung website.<br>- Cập nhật thông tin cá nhân và worklog tuần đầu tiên. | 23/04/2026 | 25/04/2026 | https://cloudjourney.awsstudygroup.com/ |
-| 6 | - Triển khai website lên GitHub Pages.<br>- Kiểm tra và hoàn thiện website. | 25/04/2026 | 26/04/2026 | https://pages.github.com/ |
+| 5 | - Chỉnh sửa nội dung website.<br>- Cập nhật thông tin cá nhân và worklog tuần đầu tiên. | 23/04/2026 | 23/04/2026 | https://cloudjourney.awsstudygroup.com/ |
+| 6 | - Triển khai website lên GitHub Pages.<br>- Kiểm tra và hoàn thiện website. | 24/04/2026 | 24/04/2026 | https://pages.github.com/ |
 
 ---
 

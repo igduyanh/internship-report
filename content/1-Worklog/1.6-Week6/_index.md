@@ -8,19 +8,19 @@ pre: ' <b> 1.6. </b> '
 
 ### Week 6 Objectives:
 
-- Review the content covered in the previous labs.
+- Review contents of previous labs.
 - Learn how to use Terraform.
 
-### Tasks Completed During the Week:
+### Tasks to Complete This Week:
 
-| Day | Task Description | Start Date | End Date | Reference |
-|-----|------------------|------------|----------|-----------|
-| Monday | Learn the fundamentals of Terraform, understand Infrastructure as Code (IaC), and set up the development environment. | 25/05/2026 | 25/05/2026 | https://docs.aws.amazon.com/prescriptive-guidance/latest/choose-iac-tool/terraform.html |
-| Tuesday | Learn the Terraform workflow, including `init`, `plan`, `apply`, and `destroy`, as well as providers and resources. | 26/05/2026 | 26/05/2026 | https://developer.hashicorp.com/terraform/tutorials/aws-get-started |
-| Wednesday | Study Terraform variables, outputs, and state management. | 27/05/2026 | 27/05/2026 | https://developer.hashicorp.com/terraform |
-| Thursday | Practice provisioning a virtual server (VPS) using Terraform. | 28/05/2026 | 28/05/2026 | https://developer.hashicorp.com/terraform |
-| Friday | Use Terraform to modify and destroy the virtual server, then clean up the resources created during the exercises. | 29/05/2026 | 30/05/2026 | https://developer.hashicorp.com/terraform |
+| Day | Task | Start Date | Completion Date | Reference |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------------------------------- |
+| Monday   | Learn basic Terraform, what IaC is, and environment setup. | 25/05/2026   | 25/05/2026      | https://docs.aws.amazon.com/prescriptive-guidance/latest/choose-iac-tool/terraform.html|
+| Tuesday   | Learn workflow (init, plan, apply, destroy), providers, and resources. | 26/05/2026   | 26/05/2026      | https://developer.hashicorp.com/terraform/tutorials/aws-get-started |
+| Wednesday   | Learn variables, outputs, state management. | 27/05/2026   | 27/05/2026      | https://developer.hashicorp.com/terraform |
+| Thursday   | Practice using Terraform to deploy a VPS. | 28/05/2026   | 28/05/2026      | https://developer.hashicorp.com/terraform |
+| Friday   | Use Terraform to modify, delete the VPS, and clean up resources used. | 29/05/2026   | 30/05/2026      | https://developer.hashicorp.com/terraform |
 
-### Achievements:
+### Week 6 Results:
 
-- Acquired a solid understanding of Terraform and its core workflows for provisioning and managing infrastructure as code.
+- Mastered the usage of Terraform.

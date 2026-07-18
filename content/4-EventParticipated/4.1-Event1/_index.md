@@ -1,113 +1,72 @@
 ---
-title: 'Event 1'
+title: "Event 3"
 date: 2026-06-13
-weight: 1
+weight: 3
 chapter: false
-pre: ' <b> 4.1. </b> '
+pre: " <b> 4.3. </b> "
 ---
 
-# Reflection Report: "Event 1"
+# Event Reflection: “FCAJ Meetup (June 13, 2026)”
 
-## Event Information
+### Purpose of the Event
 
-- **Event Name:**
-- **Date:** 09:00 AM, June 13, 2026
-- **Location:** 26th Floor, Bitexco Building, 02 Hai Trieu Street, Sai Gon Ward, Ho Chi Minh City
-- **Role:** Participant
+- To provide a realistic, unfiltered view of what Engineers (DevOps, Data Analytics) actually do at multinational corporations (MNCs) and enterprises, thereby dispelling common student misconceptions.
+- To dive deep into corporate culture, global working standards, and orientation for a sustainable career path—from taking the first steps in the industry to becoming an expert.
+- To inspire and guide attendees on how to leverage tech communities (like AWS) as a launchpad for career advancement and value sharing.
 
----
+### List of Speakers
 
-## Purpose of the Event
+- **Mr. Trong H. Truong** (DevOps Engineer @ Endava Vietnam): “What does a DevOps Engineer really do?”
+- **Mr. Dat Pham** (Data Analytics Engineer) & **Mr. Cuong Nguyen** (Process Engineer): “Real-world stories and culture at multinational corporations”
+- **Mr. Danh Hoang Hieu Nghi** (AI Engineer): “From First Cloud AI Journey to AWS Partner”
+- **Dinh Trung Kien & Nguyen Minh Tho**: “A scalable URL shortening service on AWS”
 
-The event was organized to introduce the FCAJ community and its activities for members. It also featured practical sharing sessions covering several career fields, including Data Analysis, Supply Chain Management, and DevOps. Through the speakers' experiences, participants gained a better understanding of real-world job responsibilities, essential professional skills, and career development opportunities.
+### Key Highlights
 
----
+The event featured 4 highly practical presentations:
 
-# Key Highlights
+#### 1) Dinh Trung Kien & Nguyen Minh Tho — A scalable URL shortening service on AWS
 
-## 1. Mr. Hieu Nghi's AWS Journey
+- **Objective**: Solving a classic System Design problem by building a highly scalable, secure, and low-latency URL shortening service (rather than just a simple MVP).
+- **Risks of the "Basic" Architecture**: The traditional model (Frontend → Backend → Database) faces numerous issues such as Single Points of Failure (SPOF), scaling difficulties, high read latency, and vulnerability to attacks due to the lack of edge-layer protection.
+- **Real-world System Architecture on AWS**:
+  - **Edge Layer**: Utilizing Amazon CloudFront integrated with AWS WAF to block malicious traffic and distribute static content via Amplify.
+  - **App Layer**: A containerized backend running on Amazon ECS (Fargate), using an ALB to route traffic into Private Subnets.
+- **Key Generation Service (KGS)**: Optimizing performance by utilizing a background service to pre-generate short codes and push them into a Redis queue (using the LPUSH command), instead of generating them on-demand.
+- **Create Flow (Write)**: The backend simply fetches an available code from Redis (using the RPOP command), maps it to the original URL, and writes directly to DynamoDB, completely eliminating code generation latency.
+- **Read Flow (Cache-aside)**: The system queries Amazon ElastiCache for Redis first. Only on a Cache miss does it query DynamoDB and then update the cache, drastically reducing the database load.
 
-The speaker shared his learning journey and professional development that eventually led him to becoming an AWS Partner.
+#### 2) Trong H. Truong — What does a DevOps Engineer really do?
 
-Key topics included:
+- **Myth vs. Reality**: Many mistakenly believe DevOps is just writing CI/CD pipelines, typing Docker/K8s commands, or being the midnight server "firefighter". In reality, the scope is much more system-oriented: on-call duties, incident handling, permission management, cost investigation, and ownership clarification.
+- **What to Learn First**: Don't chase tools because they constantly change. Master the Fundamentals: Linux, Networking, Git, Containers, and a programming language (Python/Golang).
+- **Crucial Lessons**: Copy-pasting commands from the internet doesn't mean you understand them. Always ask "Why" before "How". Communication is a core DevOps skill. Use AI to enhance your skills, but don't let it turn off your own critical thinking.
 
-- His first experiences with AWS.
-- Learning strategies and career growth in Cloud Computing.
-- Opportunities available through the AWS community.
+#### 3) Dat Pham & Cuong Nguyen — Real-world Stories & MNC Culture
 
----
+- **Survival Skills**: To survive and thrive in an MNC, beyond hard skills, you must possess Critical Thinking, Communication Skills, Problem Solving, and especially "Data Storytelling".
+- **The 5 Career Levels**: Follower (Execution) → Learner (Proactive Learning) → Problem Solver (End-to-end resolution) → System Thinker (Seeing the big picture, long-term optimization) → Super Star (Strategic direction and leadership).
+- **Decoding Corporate Culture**: In tech MNCs, a "No-Blame Post-Mortem" culture is highly emphasized: when an error occurs, the team focuses on finding the root cause to fix the system rather than pointing fingers at individuals.
+- **The "Right Work" Philosophy**: Built on 3 pillars: Being a Good Person (inner management), Being a Professional (serving with expertise), and Being a Citizen (national responsibility, technological legacy).
 
-## 2. Introduction to the Data Analyst Role
+#### 4) Danh Hoang Hieu Nghi — From First Cloud AI Journey to AWS Partner
 
-This session provided an overview of the daily responsibilities of a Data Analyst.
+- **The 8-step Roadmap**: Starts with Student Curiosity → Finding the right environment (First Cloud AI Journey) → Hands-on Labs → Showcasing capabilities (Portfolio) → Becoming an AWS Partner → Sharing Back to the community.
+- **The Power of Community**: Getting a job is just the beginning. Immersing yourself in a community (like the AWS Student Builder Group or AWS Community Builder) provides an excellent network and practical support: certification vouchers, AWS Credits, and swags.
 
-The presentation covered:
+### Key Takeaways
 
-- Typical day-to-day tasks of a Data Analyst.
-- Technical and soft skills required for the role.
-- Practical experiences from working in the industry.
+- **Clear Understanding**: Tools change constantly; only solid Fundamentals and System Thinking will sustain an engineer's long-term career.
+- **Stepping Stone to MNCs**: A mindset shift is required—from just "getting the job done" to "doing it to standard", combined with a "No-Blame" mentality to continuously improve both the self and the system.
+- **The Importance of Contribution**: Technical expertise combined with support from tech communities creates a powerful launchpad for career development.
+- **Architecture Optimization (System Design)**: Grasped concepts like Separation of Concerns (decoupling Read/Write flows), Defense at the Edge, and the Pre-computation over On-demand strategy to minimize latency.
 
----
+### Practical Applications
 
-## 3. Insights from Supply Chain Management
+- **Self-Study & Practice**: Break the habit of mindlessly copy-pasting code. When using AI to help write scripts or configurations, force myself to analyze and understand the purpose of every single line.
+- **Upgrading Project Mindset**: Apply a "System Thinker" mindset to internship projects instead of just being a "Follower". It's not just about making the code run; it's about optimizing performance, anticipating risks, and practicing clear progress reporting.
+- **Personal Branding**: Plan to actively participate in the AWS Student Builder Group to build projects for my Portfolio and orient toward community building in the future.
+- **Applying the Cache-aside Pattern**: Implement Redis in personal or academic projects to optimize response times for APIs with high read frequencies.
+- **Decoupling Heavy Tasks**: Learn how to isolate heavy tasks from the main execution thread using background workers, preparing data in advance so the main flow runs more smoothly.
 
-The speaker shared personal experiences working in supply chain management and discussed long-term career perspectives.
-
-Main topics included:
-
-- Challenges and lessons learned from real projects.
-- The importance of long-term planning and strategic thinking.
-- Essential skills and valuable advice for students.
-
----
-
-## 4. DevOps Career Sharing
-
-This session focused on learning paths and career development in DevOps.
-
-Key points included:
-
-- Experiences using AWS services and learning Cloud technologies.
-- Career orientation in Cloud Computing and DevOps.
-- Knowledge and skills students should develop before entering the professional workplace.
-- Approaches to predicting, preventing, and handling incidents within enterprise operational processes.
-
----
-
-# What I Learned
-
-## Career Orientation
-
-After attending the event, I gained a clearer understanding of the responsibilities and career paths of Data Analysts, Supply Chain professionals, and DevOps Engineers. The speakers' experiences provided valuable insights into the expectations and opportunities within these fields.
-
-## Skill Development
-
-Besides technical knowledge, I also learned the importance of continuously developing both professional and interpersonal skills. The practical advice shared by the speakers gave me a better understanding of how to prepare for a future career in the technology industry.
-
----
-
-# Applying the Knowledge During My Internship
-
-The event helped me recognize the areas where I still need improvement. As a result, I plan to:
-
-- Continue strengthening my knowledge of AWS and Cloud Computing.
-- Build a more structured learning roadmap.
-- Actively improve both technical and soft skills to prepare for future career opportunities.
-
----
-
-# My Experience at the Event
-
-Attending this event gave me the opportunity to become more familiar with the AWS community and discover various learning resources and community activities for students interested in Cloud Computing. It was also a valuable chance to learn directly from professionals working in different technology-related fields.
-
-I was particularly inspired by the session describing the speaker's AWS learning journey and career development. His experiences motivated me to continue pursuing Cloud Computing and to invest more seriously in developing my technical skills. The presentations on Data Analysis, Supply Chain Management, and DevOps also provided practical perspectives on industry expectations and the competencies required to succeed in these professions.
-
-Overall, the event broadened my understanding of different career paths within the IT industry while giving me greater motivation to continue learning and improving myself. The knowledge and experiences I gained will serve as a valuable foundation throughout my internship and future professional career.
-
----
-
-# Event Photos
-
-*Add photos from the event here.*
-
-> This event expanded my understanding of the AWS ecosystem, introduced me to valuable learning resources, and provided opportunities to connect with the Cloud community. The knowledge and experiences I gained will support my continued learning and help me apply these concepts in future projects.
+#### Some pictures from the event
